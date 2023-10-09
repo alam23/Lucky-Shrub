@@ -1,0 +1,124 @@
+* {
+    background-color: #C5FAC4;
+}
+
+.header {
+    text-align: center;
+}
+
+.header-logo {
+    height: 140px;
+    width: 70px;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 10%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 1.7em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    background-color: #B36C4F;
+    padding: 0.6em;
+    color: white;
+}
+
+nav li a:hover {
+    background-color: #FAC1AA;
+}
+
+h1 {
+    font-size: 1.6em;
+    color: #6175F5;
+    background-color: transparent;
+}
+
+h2 {
+    font-size: 1.3em;
+    color: #6175F5;
+    background-color: transparent;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    border: 3px ridge black;
+    padding: 1em;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#main {
+    margin: 2em 4em 2em 4em;
+    background-image: url("https://previews.123rf.com/images/alenarib/alenarib1612/alenarib161200105/69149971-seamless-pattern-of-garden-tools-garden-background.jpg");
+}
+
+#main p {
+    font-weight: bolder;
+}
+
+#left {
+    margin: 0 4em 2em 2em;
+}
+
+#center {
+    margin: 0 1em 2em 1em;
+}
+
+#right {
+    margin: 0 2em 2em 4em;
+}
+
+article p {
+    background-color: transparent;
+    color: #B36C4F;
+    text-align: justify;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+article a {
+    background-color: transparent;
+}
+
+article:hover {
+    transform: scaleX(105%) scaleY(105%);
+    transition: 150ms;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.379);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: right;
+    margin-right: 5em;
+    border-top-style: solid;
+}
+
+.footer-img {
+    margin-left: 5em;
+}
+
+footer div {
+    flex: 1;
+}
